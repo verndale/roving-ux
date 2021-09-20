@@ -1,9 +1,9 @@
-# Roving Index
+# Roving UX
 
 <p style="text-align='center'">
-  <img src="https://img.shields.io/npm/dt/@verndale/roving-index.svg" alt="Total Downloads">
-  <img src="https://img.shields.io/npm/v/@verndale/roving-index.svg" alt="Latest Release">
-  <img src="https://img.shields.io/npm/l/@verndale/roving-index.svg" alt="License">
+  <img src="https://img.shields.io/npm/dt/@verndale/roving-ux.svg" alt="Total Downloads">
+  <img src="https://img.shields.io/npm/v/@verndale/roving-ux.svg" alt="Latest Release">
+  <img src="https://img.shields.io/npm/l/@verndale/roving-ux.svg" alt="License">
 </p>
 
 > Turns tedious tab UX into a controlled and stateful experience
@@ -23,10 +23,10 @@
 ### Installation
 
 ```bash
-npm i @verndale/roving
+npm i @verndale/roving-ux
 ```
 
-Use the JSDelivr CDN https://cdn.jsdelivr.net/npm/@verndale/roving-index
+Use the JSDelivr CDN https://cdn.jsdelivr.net/npm/@verndale/roving-ux
 
 <br>
 
@@ -34,11 +34,11 @@ Use the JSDelivr CDN https://cdn.jsdelivr.net/npm/@verndale/roving-index
 
 ```js
 // import from CDN
-import { rovingIndex } from "https://cdn.jsdelivr.net/npm/@verndale/roving-index"; // cdn es2020
+import { rovingIndex } from "https://cdn.jsdelivr.net/npm/@verndale/roving-ux"; // cdn es2020
 
 // import from NPM
-import { rovingIndex } from "@verndale/roving-index"; // npm es6/common modules
-const rovingIndex = require("@verndale/roving-index"); // commonjs
+import { rovingIndex } from "@verndale/roving-ux"; // npm es6/common modules
+const rovingIndex = require("@verndale/roving-ux"); // commonjs
 ```
 
 <br>
@@ -58,7 +58,7 @@ rovingIndex({
 ### Example Usage
 
 ```js
-import { rovingIndex } from "@verndale/roving-index";
+import { rovingIndex } from "@verndale/roving-ux";
 
 // just one roving ux container
 // roving-index will use direct children as focus targets
@@ -68,7 +68,7 @@ rovingIndex({
 ```
 
 ```js
-import { rovingIndex } from "@verndale/roving-index";
+import { rovingIndex } from "@verndale/roving-ux";
 
 // many roving ux containers
 // passes a custom query selector so the proper elements get focus

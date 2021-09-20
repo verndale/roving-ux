@@ -1,6 +1,6 @@
 {
-  "name": "@verndale/roving-index",
-  "version": "1.0.0",
+  "name": "@verndale/roving-ux",
+  "version": "1.0.1",
   "description": "stateful roving index for web ui",
   "main": "dist/index.js",
   "source": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/verndale/roving-index.git"
+    "url": "git+https://github.com/verndale/roving-ux.git"
   },
   "keywords": [
     "accessibility",
@@ -22,9 +22,9 @@
   "author": "Carlos Viteri",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/verndale/roving-index/issues"
+    "url": "https://github.com/verndale/roving-ux/issues"
   },
-  "homepage": "https://github.com/verndale/roving-index#readme",
+  "homepage": "https://github.com/verndale/roving-ux#readme",
   "devDependencies": {
     "microbundle": "^0.13.0"
   }

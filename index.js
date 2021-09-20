@@ -90,7 +90,7 @@ const focusFirstItem = (rover, cb) => {
   let first = rx.targets[rx.index];
 
   // found something, activate it
-  next && activate(rover, first, cb);
+  first && activate(rover, first, cb);
 };
 
 const focusLastItem = (rover, cb) => {
@@ -103,7 +103,7 @@ const focusLastItem = (rover, cb) => {
   let last = rx.targets[rx.index];
 
   // found something, activate it
-  next && activate(rover, last, cb);
+  last && activate(rover, last, cb);
 };
 
 const focusNextItem = (rover, cb) => {
