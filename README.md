@@ -1,5 +1,7 @@
 # Roving UX
 
+Original idea: https://github.com/argyleink/roving-ux
+
 <p style="text-align='center'">
   <img src="https://img.shields.io/npm/dt/@verndale/roving-ux.svg" alt="Total Downloads">
   <img src="https://img.shields.io/npm/v/@verndale/roving-ux.svg" alt="Latest Release">
@@ -34,7 +36,7 @@ Use the JSDelivr CDN https://cdn.jsdelivr.net/npm/@verndale/roving-ux
 
 ```js
 // import from CDN
-import { rovingIndex } from "https://cdn.jsdelivr.net/npm/@verndale/roving-ux"; // cdn es2020
+import { rovingIndex } from "https://cdn.jsdelivr.net/npm/@verndale/roving-ux/+esm"; // cdn es2020
 
 // import from NPM
 import { rovingIndex } from "@verndale/roving-ux"; // npm es6/common modules
