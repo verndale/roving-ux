@@ -35,7 +35,8 @@ export const rovingIndex = ({
   });
 
   // when container or children get focus
-  const onFocusin = (_) => {
+  const onFocusin = (e) => {
+    e.stopPropagation();
     if (state.get("last_rover") == rover) return;
 
     activate(rover, state.get(rover).active);
@@ -45,6 +46,8 @@ export const rovingIndex = ({
 
   // watch for arrow keys
   const onKeydown = (e) => {
+    e.stopPropagation();
+
     switch (e.keyCode) {
       case KEYCODE.RIGHT:
       case KEYCODE.DOWN:
